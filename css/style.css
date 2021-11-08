@@ -9,6 +9,8 @@
     src: url(../fonts/champagne.ttf);
 }
 
+/* Navigation Styling */
+
 .navbar {
     max-width: 100%;
 }
@@ -38,6 +40,29 @@ nav ul li a:hover {
     color: #8F9EF0;
 }
 
+/* Gallery Styling */
+
+div .gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
+
+div .gallery:hover {
+    border: 1px solid #777;
+}
+
+div .gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div .desc {
+    padding: 15px;
+    text-align: center;
+}
+
 body {
     background-color: #fecd71;
 }
@@ -45,4 +70,9 @@ body {
 h1 {
     font-family: 'Champagne', sans-serif;
     font-size: 50px;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
 }
