@@ -9,6 +9,10 @@
     src: url(../fonts/champagne.ttf);
 }
 
+.navbar {
+    max-width: 100%;
+}
+
 nav {
     text-align: right;
 }
@@ -18,7 +22,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
 }
 
 nav ul li  a {
@@ -26,7 +30,19 @@ nav ul li  a {
    color: #6176EB;
    padding: 20px 20px; 
    font-weight: bold;
-   font-family: sans-serif;
+   font-family: 'Barlow', sans-serif;
+   font-size: 20px;
 }
 
+nav ul li a:hover {
+    color: #8F9EF0;
+}
 
+body {
+    background-color: #fecd71;
+}
+
+h1 {
+    font-family: 'Champagne', sans-serif;
+    font-size: 50px;
+}
