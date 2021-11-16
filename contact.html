@@ -15,8 +15,12 @@
 
     <body>
         <header>
-            <nav>
-                <ul>
+            <nav class="navbar">
+                <div class="logo">
+                    <h1><img src="images/maters-market-logo.JPG" alt="logo" width="100px">Mater's Market</h1>
+                </div>
+                
+                <ul class="nav-list">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
@@ -24,6 +28,45 @@
                 </ul>
             </nav>
         </header>
+
+        <main class="container">
+
+            <form class="contact-form" name="contact" method="POST" action="">
+                <div class="name input-section">
+                    <label for="name" class="label_input_wrap">Name</label>
+                    <input type="text" name="name" id="name" placeholder="ex. Jane Doe" />
+                </div>
+    
+                <div class="email input-section">
+                    <label for="email" class="label_input_wrap">Email</label>
+                    <input type="email" name="email" id="email" placeholder="janedoe@example.com" />
+                </div>
+    
+                <div class="dropdown input-section">
+                    <label for="reason" class="label_input_wrap">Reason for Contact</label>
+                    <select name="reason" id="reason">
+                        <option value="commission">Commissions</option>
+                        <option value="question">Question</option>
+                        <option value="pricing">Pricing</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+    
+                <div class="message input-section">
+                    <label for="message" class="label_input_wrap">Message</label>
+                    <textarea name="message" id="message" placeholder="Type Message Here"></textarea>
+                </div>
+    
+                <div class="reset">
+                    <input type="reset" value="Refresh" />
+                </div>
+    
+                <div class="submit">
+                    <input type="submit" value="Submit" />
+                </div>
+            </form>
+
+        </main>
     </body>
     <footer>
         <p>&copy;Mater's Market 2021</p>
