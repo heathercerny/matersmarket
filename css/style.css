@@ -11,8 +11,16 @@
 
 /* Navigation Styling */
 
-.navbar {
-    max-width: 100%;
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: #fecd71;
+}
+
+.logo {
+    text-align: center;
+    display: inline-block; 
 }
 
 nav {
@@ -42,28 +50,15 @@ nav ul li a:hover {
 
 /* Gallery Styling */
 
-div .gallery {
-    border: solid black 5px; 
-    padding: 5px;
-    margin: 50px;
-    overflow: auto;
-    height: auto;
-    overflow: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-div .desc {
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-}
+
 /* Universal Styling */
 body {
     background-color: #fecd71;
 }
 
 .container {
+    position: relative;
+    top: 150px;
     max-width: 80%;
     margin: 0 auto;
 }
@@ -76,8 +71,10 @@ h1 {
 
 h2 {
     font-family: 'Champagne', sans-serif;
-    font-size: 32px;
+    font-size: 50px;
     color: #707070;
+    text-align: center;
+    padding: 20px;
 
 }
 
@@ -85,6 +82,10 @@ p {
     font-family: 'Barlow', sans-serif;
     font-size: 16px;
     color: #707070;
+}
+
+footer {
+    text-align: center;
 }
 
 /* Contact Form Styling */
