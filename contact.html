@@ -15,38 +15,44 @@
 
     <body>
         <header>
-            <nav class="navbar">
-                <div class="logo">
-                    <h1><img src="images/maters-market-logo.JPG" alt="logo" width="100px">Mater's Market</h1>
-                </div>
-                
-                <ul class="nav-list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="logo">
+                <img src="images/maters-market-logo.JPG" alt="logo" width="100">
+                <h1>Mater's Market</h1>
+            </div>
+
+            <div class="navigation">
+                <nav>
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
         </header>
+
 
         <main class="container">
 
             <h2>Contact The Artist</h2>
 
-            <form class="contact-form" name="contact" method="POST" action="">
+            <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
                 <div class="name input-section">
-                    <label for="name" class="label_input_wrap">Name</label>
-                    <input type="text" name="name" id="name" placeholder="ex. Jane Doe" />
+                    <label for="name" class="label_input_wrap"></label>
+                    <input type="text" name="req_name" id="name" placeholder="NAME" />
                 </div>
     
                 <div class="email input-section">
-                    <label for="email" class="label_input_wrap">Email</label>
-                    <input type="email" name="email" id="email" placeholder="janedoe@example.com" />
+                    <label for="email" class="label_input_wrap"></label>
+                    <input type="email" name="req_email" id="email" placeholder="EMAIL" />
                 </div>
     
                 <div class="dropdown input-section">
-                    <label for="reason" class="label_input_wrap">Reason for Contact</label>
+                    <label for="reason" class="label_input_wrap"></label>
                     <select name="reason" id="reason">
+                        <option value="contact reason">Reason for Contact</option>
                         <option value="commission">Commissions</option>
                         <option value="question">Question</option>
                         <option value="pricing">Pricing</option>
@@ -55,8 +61,8 @@
                 </div>
     
                 <div class="message input-section">
-                    <label for="message" class="label_input_wrap">Message</label>
-                    <textarea name="message" id="message" placeholder="Type Message Here"></textarea>
+                    <label for="message" class="label_input_wrap"></label>
+                    <textarea name="req_message" id="message" placeholder="Type Message Here"></textarea>
                 </div>
     
                 <div class="reset">

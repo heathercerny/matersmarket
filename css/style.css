@@ -23,8 +23,15 @@ header {
     display: inline-block; 
 }
 
+h1 {
+    font-family: 'Champagne', sans-serif;
+    font-size: 50px;
+    color: #707070;
+}
+
 nav {
     text-align: right;
+    align: top; 
 }
 
 nav ul {
@@ -58,15 +65,9 @@ body {
 
 .container {
     position: relative;
-    top: 150px;
+    top: 200px;
     max-width: 80%;
     margin: 0 auto;
-}
-
-h1 {
-    font-family: 'Champagne', sans-serif;
-    font-size: 50px;
-    color: #707070;
 }
 
 h2 {
@@ -91,8 +92,9 @@ footer {
 /* Contact Form Styling */
 
 .contact-form {
-    background: #E3D8D8;
+    background: #C894DD;
     padding: 20px;
+    border: solid #707070;
     border-radius: 4px;
     color: #707070;
     font-family: 'Barlow', sans-serif;
