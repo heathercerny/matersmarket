@@ -16,11 +16,11 @@ header {
     width: 100%;
     z-index: 999;
     background-color: #fecd71;
+    display: inline-block;
 }
 
 .logo {
-    text-align: center;
-    display: inline-block; 
+    padding: 10px;
 }
 
 h1 {
@@ -31,7 +31,7 @@ h1 {
 
 nav {
     text-align: right;
-    align: top; 
+    margin-bottom: 20px;
 }
 
 nav ul {
@@ -55,12 +55,27 @@ nav ul li a:hover {
     color: #8F9EF0;
 }
 
-/* Gallery Styling */
+/* About Page Styling */
 
+.image-left {
+    float: left;
+    margin: 0 30px 20px 0;
+}
+
+.image-right {
+    float: right;
+    margin: 0 0 20px 30px; 
+}
+
+.about-content {
+    text-align: center;
+}
 
 /* Universal Styling */
 body {
     background-color: #fecd71;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .container {
@@ -89,6 +104,19 @@ footer {
     text-align: center;
 }
 
+/* Gallery Styling */
+.gallery {
+    border: solid #707070;
+    overflow: auto;
+    width: auto;
+    display: inline-block;
+}
+
+.text {
+    text-align:center;
+    margin: 10px;
+}
+
 /* Contact Form Styling */
 
 .contact-form {
@@ -111,6 +139,12 @@ footer {
     background: #8F9EF0;
     color: white;
     padding: 5px 20px;
+}
+
+.reset input:hover,
+.submit input:hover {
+    background: white;
+    color: #8F9EF0;
 }
 
 .reset, 
