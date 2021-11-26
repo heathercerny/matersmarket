@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -55,6 +56,74 @@ nav ul li a:hover {
     color: #8F9EF0;
 }
 
+/* Slideshow Container */
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.image-container {
+    display: none;
+}
+
+/* forward and back buttons */
+
+.back, 
+.forward {
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    width: auto;
+    margin-top: -23px;
+    padding: 17px;
+    color: grey;
+    font-weight: bold;
+    font-size: 19px;
+    transition: 0.4s ease;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+.forward {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+}
+
+.back:hover, 
+.forward:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* the circles/indicators */
+
+.dots {
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin: 0 3px;
+    background-color: #acc;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.enable, 
+.dots:hover {
+    background-color: #717161;
+}
+
+/* Faint Animation */
+
+.fade {
+    animation: fade 1.4s;
+}
+
+@keyframes fade {
+    from {opacity: .5}
+    to {opacity: 2}
+}
 /* About Page Styling */
 
 .image-left {
