@@ -32,7 +32,8 @@ h1 {
 
 nav {
     text-align: right;
-    margin-bottom: 20px;
+    position: relative;
+    margin: 0 auto; 
 }
 
 nav ul {
@@ -154,7 +155,7 @@ body {
     margin: 0 auto;
 }
 
-h2 {
+h2{
     font-family: 'Champagne', sans-serif;
     font-size: 50px;
     color: #707070;
@@ -163,22 +164,33 @@ h2 {
 
 }
 
+h3 {
+    font-family: 'Champagne', sans-serif;
+    font-size: 35px;
+    color: #707070;
+    text-align: center;
+    padding: 20px;
+}
+
 p {
     font-family: 'Barlow', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     color: #707070;
 }
 
-footer {
-    text-align: center;
+details, 
+summary {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    color: #707070;
 }
 
 /* Gallery Styling */
 .gallery {
-    border: solid #707070;
     overflow: auto;
     width: auto;
     display: inline-block;
+    padding: 10px;
 }
 
 .text {
@@ -193,7 +205,7 @@ footer {
     padding: 20px;
     border: solid #707070;
     border-radius: 4px;
-    color: #707070;
+    color: black;
     font-family: 'Barlow', sans-serif;
     margin: 0 auto;
     max-width: 75%;
@@ -234,6 +246,7 @@ textarea {
     font-family: 'Barlow', sans-serif;
     padding: 10px 10px;
     border-radius: 4px;
+    width: 100%;
 }
 
 select {
