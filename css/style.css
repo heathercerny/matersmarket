@@ -24,10 +24,22 @@ header {
     padding: 10px;
 }
 
+.logo h1 {
+    display: inline-block;
+    position: relative;
+    top: -35px;
+    left: 15px;
+}
+
 h1 {
     font-family: 'Champagne', sans-serif;
     font-size: 50px;
     color: #707070;
+}
+
+.navigation {
+    position: relative;
+    top: -70px; 
 }
 
 nav {
@@ -69,6 +81,10 @@ nav ul li a:hover {
     display: none;
 }
 
+.image-container img {
+    max-height: 500px;
+    object-fit: contain;
+}
 /* forward and back buttons */
 
 .back, 
@@ -125,20 +141,10 @@ nav ul li a:hover {
     from {opacity: .5}
     to {opacity: 2}
 }
-/* About Page Styling */
 
 .image-left {
     float: left;
     margin: 0 30px 20px 0;
-}
-
-.image-right {
-    float: right;
-    margin: 0 0 20px 30px; 
-}
-
-.about-content {
-    text-align: center;
 }
 
 /* Universal Styling */
@@ -183,6 +189,7 @@ summary {
     font-family: 'Barlow', sans-serif;
     font-size: 20px;
     color: #707070;
+    padding: 5px;
 }
 
 /* Gallery Styling */

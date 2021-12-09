@@ -10,17 +10,36 @@
         width: 100%;
         z-index: 999;
         background-color: #fecd71;
+        display: inline-block;
+    }
+
+    .logo {
+        padding: 10px;
+    }
+
+    .logo h1 {
+        display: inline-block;
+        position: relative;
+        top: -35px;
+        left: 15px;
     }
 
     h1 {
         font-family: 'Champagne', sans-serif;
         font-size: 50px;
         color: #707070;
+        text-align: center;
+    }
+
+    .navigation {
+        position: relative;
+        top: -70px; 
     }
 
     nav {
         text-align: right;
-        align: top; 
+        position: relative;
+        margin: 0 auto; 
     }
 
     nav ul {
@@ -28,7 +47,7 @@
     }
 
     nav ul li {
-        display: inline-block;
+            display: inline-block;
     }
 
     nav ul li  a {
@@ -43,8 +62,34 @@
     nav ul li a:hover {
         color: #8F9EF0;
     }
-</style>    
 
+    body {
+        background-color: #fecd71;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .container {
+        position: relative;
+        top: 200px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    a {
+        text-decoration: none;
+        color: #6176EB; 
+        font-weight: bold;
+        font-family: 'Barlow', sans-serif;
+        font-size: 20px;
+    }
+
+    p {
+        font-family: 'Barlow', sans-serif;
+        font-size: 20px;
+        color: #707070;
+    }
+</style>  
 <header>
 
     <nav>
