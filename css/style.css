@@ -24,11 +24,17 @@ header {
     padding: 10px;
 }
 
+.logo img {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
 .logo h1 {
     display: inline-block;
     position: relative;
-    top: -35px;
-    left: 15px;
+    top: -15px;
+    left: 40px;
 }
 
 h1 {
@@ -39,7 +45,7 @@ h1 {
 
 .navigation {
     position: relative;
-    top: -70px; 
+    top: -65px; 
 }
 
 nav {
@@ -147,6 +153,10 @@ nav ul li a:hover {
     margin: 0 30px 20px 0;
 }
 
+.image-right {
+    float: right;
+}
+
 /* Universal Styling */
 body {
     background-color: #fecd71;
@@ -161,7 +171,7 @@ body {
     margin: 0 auto;
 }
 
-h2{
+h2 {
     font-family: 'Champagne', sans-serif;
     font-size: 50px;
     color: #707070;
@@ -170,18 +180,35 @@ h2{
 
 }
 
-h3 {
-    font-family: 'Champagne', sans-serif;
-    font-size: 35px;
-    color: #707070;
-    text-align: center;
-    padding: 20px;
-}
 
 p {
     font-family: 'Barlow', sans-serif;
     font-size: 20px;
     color: #707070;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+   text-decoration: none;
+   color: #6176EB;
+   font-weight: bold;
+   font-family: 'Barlow', sans-serif;
+   font-size: 20px;
+}
+
+a:hover {
+    color: #8F9EF0;
+}
+
+/* About Page Styling */
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 20px
 }
 
 details, 
@@ -190,6 +217,14 @@ summary {
     font-size: 20px;
     color: #707070;
     padding: 5px;
+}
+
+summary {
+    list-style: none;
+}
+
+summary:hover {
+    color: #6176EB
 }
 
 /* Gallery Styling */

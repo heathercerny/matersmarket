@@ -91,16 +91,27 @@
     }
 </style>  
 <header>
+      <div class="logo">
+        <img
+            src="images/maters-market-logo.JPG"
+            alt="logo"
+            width="100"
+          />
+        <h1>Mater's Market</h1>
+      </div>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</li>
-            <li><a href="about.html">About</li>
-            <li><a href="contact.html">Contact</li>
-            <li><a href="gallery.html">Gallery</li>
-        </ul>
-    </nav>
-</header>
+      <div class="navigation">
+        <nav>
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
 
 <div class="container">
 	<h1>Missing fields</h1>
