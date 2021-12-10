@@ -162,12 +162,15 @@ body {
     background-color: #fecd71;
     width: 100%;
     margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
     position: relative;
     top: 200px;
-    max-width: 80%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -177,9 +180,7 @@ h2 {
     color: #707070;
     text-align: center;
     padding: 20px;
-
 }
-
 
 p {
     font-family: 'Barlow', sans-serif;
@@ -201,6 +202,13 @@ a {
 
 a:hover {
     color: #8F9EF0;
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    font-family: 'Barlow', sans-serif;
+    color: #717161
 }
 
 /* About Page Styling */
@@ -250,7 +258,7 @@ summary:hover {
     color: black;
     font-family: 'Barlow', sans-serif;
     margin: 0 auto;
-    max-width: 75%;
+    width: 75%;
 }
 
 .label_input_wrap {
