@@ -184,6 +184,10 @@ p {
     color: #707070;
 }
 
+p::first-letter {
+    font-size: 25px;
+}
+
 ul {
     list-style-type: none;
 }
