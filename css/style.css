@@ -153,10 +153,6 @@ nav ul li a:hover {
     margin: 0 30px 20px 0;
 }
 
-.image-right {
-    float: right;
-}
-
 /* Universal Styling */
 body {
     background-color: #fecd71;
