@@ -22,11 +22,12 @@
         position: relative;
         top: -35px;
         left: 15px;
+        font-size: 50px; 
     }
 
     h1 {
         font-family: 'Champagne', sans-serif;
-        font-size: 50px;
+        font-size: 35px;
         color: #707070;
         text-align: center;
     }
@@ -80,6 +81,7 @@
         font-family: 'Barlow', sans-serif;
         font-size: 20px;
         color: #707070;
+        text-align: center; 
     }
 </style>    
 
